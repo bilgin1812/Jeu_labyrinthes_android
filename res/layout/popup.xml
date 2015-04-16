@@ -1,0 +1,48 @@
+<LinearLayout
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:id="@+id/popup"
+  	android:orientation="vertical"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:background="#FFF">
+  	<LinearLayout 
+  	    android:orientation="horizontal"
+  	    android:layout_width="fill_parent"
+  	    android:layout_height="wrap_content"
+  	    android:layout_margin="10dip">
+	    <ImageView 
+	        android:id="@+id/image"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"/>
+	    
+	    <TextView 
+	        android:id="@+id/title"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:textColor="#000"
+	        android:textSize="30sp"
+	        android:layout_marginBottom="2dip"/>
+    </LinearLayout>
+    <TextView 
+        android:id="@+id/score"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip">
+        <Button 
+            android:id="@+id/positive"
+            android:text="@string/launch"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"/>
+        <Button 
+            android:id="@+id/negative"
+            android:text="@string/quit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"/>
+    </LinearLayout>
+</LinearLayout>

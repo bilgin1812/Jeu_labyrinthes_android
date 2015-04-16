@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Labyrinthe</string>
+    <string name="hello_world">hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Labyrinthe">Labyrinthe</string>
+    <string name="Start">Start</string>
+    <string name="launch">Jouer Encore</string>
+    <string name="title">BilginLaby</string>
+    <string name="quit">Quitter</string>
+    <string name="start">Jouer</string>
+    <string name="title_activity_score">ScoreActivity</string>
+
+</resources>
